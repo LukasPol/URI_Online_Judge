@@ -1,0 +1,7 @@
+L1 = input().split(' ')
+L2 = input().split(' ')
+x1 = float(L1[0])
+y1 = float(L1[1])
+x2 = float(L2[0])
+y2 = float(L2[1])
+print('{:.4f}'.format( ((x2-x1)**2 +(y2-y1)**2)**(1/2) ))
