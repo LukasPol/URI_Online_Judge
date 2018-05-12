@@ -1,14 +1,11 @@
+N =[]
 n = input().split(' ')
-A = float(n[0])
-B = float(n[1])
-C = float(n[2])
-for i in range(len(n)):
-    if A < float(n[i]):
-        A = float(n[i])
-    elif C >= float(n[i]):
-        C = float(n[i])
-    else:
-        B = float(n[i])
+for i in range(3):
+    N.append(float(n[i]))
+N.sort()
+A = N[2]
+B = N[1]
+C = N[0]
 if A >= B+C:
     print('NAO FORMA TRIANGULO')
 else:

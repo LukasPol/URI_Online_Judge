@@ -1,3 +1,9 @@
-J = 60
-for j in range (J,0,-5):
-    print('I={} J={}'.format(,j))
+J=60
+I=1
+while J>0:
+    print('I={} J={}'.format(I,J))
+    J=J-5
+    I=I+3
+print('I=? J=0')
+    
+        
